@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #2f303a;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #d7d7d7;
+  height: 100vh;
+  border-radius: 10px;
+  border: black solid 2px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.title-list {
+  margin-top: 30px;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: calc(16 / 25);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.title-list-item1 {
+  margin-left: 110px;
+}
+.title-list-item2 {
+  margin-left: 160px;
+}
+.title-list-item3 {
+  margin-left: 210px;
+}
+.title-list-item4 {
+  margin-left: 220px;
+}
+.main-list {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.main-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.main-list-input {
+  height: 35px;
+  text-align: center;
+}
+
+.img1 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50px;
+}
+.img2 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  bottom: 300px;
+}
+.img3 {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+}
+.img4 {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
